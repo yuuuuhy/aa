@@ -1,0 +1,83 @@
+{
+  "users": {
+    "demo-member": {
+      "portfolio": {
+        "id": "local-demo-member",
+        "user_id": "demo-member",
+        "cash_balance": 99999.1073,
+        "initial_cash": 100000.0
+      },
+      "positions": {
+        "LINK": {
+          "quantity": 0.01,
+          "avg_price": 8.09
+        },
+        "XMR": {
+          "quantity": 0.08,
+          "avg_price": 10.0
+        },
+        "XRP": {
+          "quantity": 0.01,
+          "avg_price": 1.18
+        }
+      },
+      "trades": [
+        {
+          "timestamp": "2026-06-04T14:14:46.498600",
+          "symbol": "XRP",
+          "side": "buy",
+          "price": 1.18,
+          "quantity": 0.01,
+          "amount_usd": 0.0118
+        },
+        {
+          "timestamp": "2026-06-04T14:13:52.257474",
+          "symbol": "XMR",
+          "side": "buy",
+          "price": 10.0,
+          "quantity": 0.08,
+          "amount_usd": 0.8
+        },
+        {
+          "timestamp": "2026-06-04T14:13:27.517442",
+          "symbol": "LINK",
+          "side": "buy",
+          "price": 8.09,
+          "quantity": 0.01,
+          "amount_usd": 0.0809
+        }
+      ],
+      "equity_curve": [
+        {
+          "ts": "2026-06-04T13:56:46.747657",
+          "total_value_usd": 100000.0,
+          "cash_balance": 100000.0
+        },
+        {
+          "ts": "2026-06-04T14:13:27.517693",
+          "total_value_usd": 100000.0,
+          "cash_balance": 99999.9191
+        },
+        {
+          "ts": "2026-06-04T14:13:52.257502",
+          "total_value_usd": 100000.0,
+          "cash_balance": 99999.1191
+        },
+        {
+          "ts": "2026-06-04T14:14:46.498628",
+          "total_value_usd": 100000.0001,
+          "cash_balance": 99999.1073
+        }
+      ],
+      "capital_records": [
+        {
+          "id": "ae3770c4-15e7-48aa-ba50-095ff5ce9f7b",
+          "timestamp": "2026-06-04T13:56:46.747657",
+          "amount_usd": 100000.0,
+          "note": "Demo 初始資金"
+        }
+      ],
+      "prefer_local": true
+    }
+  }
+}
